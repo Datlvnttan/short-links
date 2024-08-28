@@ -1,0 +1,75 @@
+.box-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+.box-center{    
+    position: relative;
+    max-width: 100%;
+    /* max-width: 900px; */
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%)
+}
+.input{
+    height: 45px;
+    border-radius: 5px;
+    margin: 5 0;
+    padding: 0 10px; 
+    background: var(--bs-body-bg);
+    border: 1px solid var(--bs-light-text-emphasis);
+    color: var(--bs-light-text-emphasis);
+}    
+.input-link{
+    float: left;
+}
+.box-short-link{
+    margin-top: 20px;
+}
+.btn-short-link{
+    height: 45px;
+    margin: 5 0;
+    background-color: #ffa500;
+    border-radius: 5px;
+}
+#input-shorted-link{
+    cursor: pointer;
+}
+.box-custom-short-link{
+    margin-top: 50px;
+}
+.box-input-short-link{
+    position: relative;
+
+}
+.label-short-link{
+    position: absolute;
+    color: var(--bs-light-text-emphasis);
+    background: var(--bs-body-bg);
+    top: -17;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 5;
+}
+.tell-you-this{
+    font-style: italic;
+}
+.check-box-make-an-appointment{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.box-show-error-validate{
+    position: relative;
+    height: 30px;
+}
+.error-validate-short-link{
+    position: absolute;
+    color: red;    
+}
+#box-expired-short-link{
+    transition: all 0.3s;
+}
+.tell-you-this{
+    color: var(--dark);
+}

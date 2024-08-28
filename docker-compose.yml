@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:latest
+    volumes:
+      - ./data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: short_link
+    ports:
+    - 3308:3306
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - 9000:80
+    environment:
+      - PMA_ARBITRARY=1
+
+
+#composer dump-autoload``
+#docker-compose up -d
+#php artisan queue:listen

@@ -1,0 +1,50 @@
+    .item-my-short-link{
+      margin: 10 0;
+      border: 1px solid #bcbcbc;
+      border-radius: 5px;
+      padding: 10px;
+      background: var(--light);
+    }
+    .check-box-select-short-link{
+        display: block;
+        float: left;
+    }
+    .box-my-short-link-infomation{
+        display: block;
+        float: right;
+    }
+    .item-my-short-link-right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-my-short-link-right button{
+      height: 45px;
+      margin: 2px;
+    }   
+    .box-input-short-link-update{
+      margin: 20 0;
+    
+    }
+    .box-input-short-link-update input{
+      border: 1px solid #bababa;
+    }
+    .box-update-short-link{
+      padding: 20px;
+    }
+    .check-box-set-password{
+      margin-left: 20px;
+    }
+    .box-show-password{
+      position: absolute;
+      right: 10;
+      bottom: 50%;
+      transform: translateY(50%)
+    }
+    .box-show-password label{
+      cursor: pointer;
+    }
+    .box-show-error-validate-update{
+      margin-left: 20px;
+    }
